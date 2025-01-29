@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #9f9999;
+    margin: 0;
+  }
+  
+  .converter {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: inset -8px -8px 10px rgb(68, 56, 56) ,inset 8px 8px 10px rgb(68, 56, 56);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .converter h1 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgb(238, 238, 238);
+    text-shadow: 2px -2px 3px gray;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-shadow: 2px 2px 3px gray;
+    color: rgb(40, 29, 29);
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#result {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px gray;
+    color: rgb(206, 181, 181);
+  }
+  
+  button {
+    width: 100%;
+    background: rgba(162, 135, 149, 0.8);
+    padding: 10px;
+    border: none;
+    color: rgb(230, 212, 212);
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: inset -8px -8px 10px #392626 , inset 8px 8px 10px #c4baba;
+    font-weight: bold;
+}
+
+button:active {
+    background: rgba(146, 72, 110, 0.8);
+    box-shadow: inset -8px -8px 10px #392626 , inset 8px 8px 10px #201818;
+  }
+  
